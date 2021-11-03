@@ -42,6 +42,7 @@ public class MainActivity extends FragmentActivity {
             googleMap.addMarker(new MarkerOptions().position(mDestinationLatLng).title("Destination"));
         });
         displayMyLocation();
+        // comment for push
     }
 
     private void displayMyLocation(){
